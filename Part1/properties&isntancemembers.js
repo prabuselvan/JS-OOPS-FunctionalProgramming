@@ -18,7 +18,7 @@ Circle.prototype.shape= function() {
     // this.draw();
 }
 // console.log(c1.__proto__===Circle.prototype);
-
+// we can overrirde the existing methods also
 Circle.prototype.toString = function () {
     return 'Circle with radius ' + this.radius
 };
